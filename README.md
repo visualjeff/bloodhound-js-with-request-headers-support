@@ -1,15 +1,11 @@
-# bloodhound-js
-
-[![Build Status](https://travis-ci.org/pqx/bloodhound.svg)](https://travis-ci.org/pqx/bloodhound)
-
-[bloodhound.js](https://github.com/twitter/typeahead.js/blob/master/doc/bloodhound.md) for node and browser
+# bloodhound-js-with-request-headers-support
 
 > Bloodhound is the typeahead.js suggestion engine. Bloodhound is robust, flexible, and offers advanced functionalities such as prefetching, intelligent caching, fast lookups, and backfilling with remote data.
 
 ### Installtion
 
 ```sh
-npm install bloodhound-js --save
+npm install bloodhound-js-with-request-headers-support --save
 ```
 
 ### Changes
@@ -19,11 +15,12 @@ npm install bloodhound-js --save
 - jquery deferred with [es6-promise](https://www.npmjs.com/package/es6-promise)
 - storage polyfill with [storage2](https://www.npmjs.com/package/storage2)
 - ajax with [superagent](https://www.npmjs.com/package/superagent)
+- * now with request header support!
 
 ### Usage
 
 ```javascript
-var Bloodhound = require('bloodhound-js');
+var Bloodhound = require('bloodhound-js-with-request-headers-support');
 var engine = new Bloodhound({
   local: ['dog', 'pig', 'moose'],
   queryTokenizer: Bloodhound.tokenizers.whitespace,
