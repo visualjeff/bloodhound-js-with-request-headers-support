@@ -1,13 +1,12 @@
 {
-  "name": "bloodhound-with-request-headers-support-js",
-  "version": "0.0.8",
+  "name": "bloodhound-js-with-request-headers-support",
+  "version": "0.0.1",
   "description": "bloodhound.js with request header support for node and browser",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server -c --port=7788",
-    "test": "tape tests/*.js",
-    "release": "auto shipit --base-branch=master"
+    "test": "tape tests/*.js"
   },
   "author": "visualjeff",
   "license": "MIT",
@@ -18,7 +17,6 @@
     "superagent": "^3.8.3"
   },
   "devDependencies": {
-    "auto": "^10.4.2",
     "tape": "^4.2.2",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0",
@@ -32,12 +30,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/visualjeff/bloodhound.git"
+    "url": "git+https://github.com/visualjeff/bloodhound-js-with-request-headers-support.git"
   },
   "bugs": {
-    "url": "https://github.com/visualjeff/bloodhound/issues"
+    "url": "https://github.com/visualjeff/bloodhound-js-with-request-headers-support/issues"
   },
-  "homepage": "https://github.com/visualjeff/bloodhound#readme",
+  "homepage": "https://github.com/visualjeff/bloodhound-js-with-request-headers-support#readme",
   "auto": {
     "plugins": [
       "npm"
