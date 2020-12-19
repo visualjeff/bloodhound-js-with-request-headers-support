@@ -15,7 +15,7 @@ npm install bloodhound-js-with-request-headers-support --save
 - jquery deferred with [es6-promise](https://www.npmjs.com/package/es6-promise)
 - storage polyfill with [storage2](https://www.npmjs.com/package/storage2)
 - ajax with [superagent](https://www.npmjs.com/package/superagent)
-- * now with request header support!
+- now with request header support!
 
 ### Usage
 

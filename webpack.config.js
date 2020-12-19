@@ -3,8 +3,8 @@ module.exports = {
   entry: './index.js',
   output: {
     path: __dirname + '/dist',
-    filename: 'bloodhound.min.js',
-    library: 'Bloodhound'
+    filename: 'bloodhound-js-with-request-headers-support.min.js',
+    library: 'bloodhound'
   },
   devtool: 'source-map'
 };

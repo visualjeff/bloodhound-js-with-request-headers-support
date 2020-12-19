@@ -1,6 +1,6 @@
 {
   "name": "bloodhound-js-with-request-headers-support",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "bloodhound.js with request header support for node and browser",
   "main": "index.js",
   "scripts": {
@@ -35,10 +35,5 @@
   "bugs": {
     "url": "https://github.com/visualjeff/bloodhound-js-with-request-headers-support/issues"
   },
-  "homepage": "https://github.com/visualjeff/bloodhound-js-with-request-headers-support#readme",
-  "auto": {
-    "plugins": [
-      "npm"
-    ]
-  }
+  "homepage": "https://github.com/visualjeff/bloodhound-js-with-request-headers-support#readme"
 }
